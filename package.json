@@ -2,10 +2,9 @@
   "name": "usage-stats-cli",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.0.0",
-  "description": "usage-stats-cli",
+  "description": "A minimal, offline-friendly Google Analytics Measurement Protocol client for tracking usage statistics in shell and javascript applications",
   "repository": "https://github.com/75lb/usage-stats-cli.git",
   "license": "MIT",
-  "main": "./lib/usage-stats-cli.js",
   "bin": {
     "usage-stats": "bin/cli.js"
   },

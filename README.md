@@ -1,11 +1,11 @@
-[![view on npm](http://img.shields.io/npm/v/usage-stats.svg)](https://www.npmjs.org/package/usage-stats)
-[![npm module downloads](http://img.shields.io/npm/dt/usage-stats.svg)](https://www.npmjs.org/package/usage-stats)
-[![Build Status](https://travis-ci.org/75lb/usage-stats.svg?branch=master)](https://travis-ci.org/75lb/usage-stats)
-[![Coverage Status](https://coveralls.io/repos/github/75lb/usage-stats/badge.svg?branch=master)](https://coveralls.io/github/75lb/usage-stats?branch=master)
-[![Dependency Status](https://david-dm.org/75lb/usage-stats.svg)](https://david-dm.org/75lb/usage-stats)
+[![view on npm](http://img.shields.io/npm/v/usage-stats-cli.svg)](https://www.npmjs.org/package/usage-stats-cli)
+[![npm module downloads](http://img.shields.io/npm/dt/usage-stats-cli.svg)](https://www.npmjs.org/package/usage-stats-cli)
+[![Build Status](https://travis-ci.org/75lb/usage-stats-cli.svg?branch=master)](https://travis-ci.org/75lb/usage-stats-cli)
+[![Coverage Status](https://coveralls.io/repos/github/75lb/usage-stats-cli/badge.svg?branch=master)](https://coveralls.io/github/75lb/usage-stats-cli?branch=master)
+[![Dependency Status](https://david-dm.org/75lb/usage-stats-cli.svg)](https://david-dm.org/75lb/usage-stats-cli)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
-# usage-stats
+# usage-stats-cli
 
 A minimal, offline-friendly [Google Analytics Measurement Protocol](https://developers.google.com/analytics/devguides/collection/protocol/v1/) client for tracking usage statistics in shell and javascript applications.
 
@@ -44,7 +44,7 @@ All parameters are send on demand, beside this list.
 To install the command line client:
 
 ```
-$ npm install -g usage-stats
+$ npm install -g usage-stats-cli
 ```
 
 Running the tool with no arguments will print the usage guide:
