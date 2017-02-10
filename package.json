@@ -1,0 +1,24 @@
+{
+  "name": "usage-stats-cli",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "usage-stats-cli",
+  "repository": "https://github.com/75lb/usage-stats-cli.git",
+  "license": "MIT",
+  "main": "./lib/usage-stats-cli.js",
+  "bin": {
+    "usage-stats": "bin/cli.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "test-runner test/*.js"
+  },
+  "dependencies": {
+    "cli-commands": "^0.2.0",
+    "typical": "^2.6.0",
+    "usage-stats": "^0.9.0"
+  }
+}
