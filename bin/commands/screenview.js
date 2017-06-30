@@ -17,7 +17,7 @@ class ScreenView extends Command {
     options = options || {}
     if (!options.cd) throw new Error('cd required')
     const usage = new UsageStats(options.tid, options)
-    usage.screenView(options.cd, options)
+    usage.screenView(options.cd, { hitParams: options })
     if (options.debug) {
       return usage.debug()
     } else {

@@ -54,7 +54,7 @@ class Command {
   }
   usage () {
     const optionDefinitions = this.optionDefinitions()
-      .filter(def => !(def.name.startsWith('cd') || def.name.startsWith('cm')))
+      .filter(def => !(def.name.length > 2 && (def.name.startsWith('cd') || def.name.startsWith('cm'))))
     optionDefinitions.push({
       name: 'cd[italic]{n}',
       type: String,

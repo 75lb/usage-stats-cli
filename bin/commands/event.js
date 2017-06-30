@@ -19,7 +19,7 @@ class Event extends Command {
   execute (options) {
     options = options || {}
     const usage = new UsageStats(options.tid, options)
-    usage.event(options.ec, options.ea, options)
+    usage.event(options.ec, options.ea, { hitParams: options })
     if (options.debug) {
       return usage.debug()
     } else {
